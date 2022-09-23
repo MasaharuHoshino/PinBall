@@ -53,11 +53,11 @@ public class ScoreController : MonoBehaviour
         {
             this.currentScore += this.largeStarPoint;
         }
-        else if (other.gameObject.tag == "smallCloudTag")
+        else if (other.gameObject.tag == "SmallCloudTag")
         {
             this.currentScore += this.smallCloudPoint;
         }
-        else if (other.gameObject.tag == "largeCloudTag")
+        else if (other.gameObject.tag == "LargeCloudTag")
         {
             this.currentScore += this.largeCloudPoint;
         }
